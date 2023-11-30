@@ -14,18 +14,18 @@ public class GUI {
         JMenuBar mb = new JMenuBar();
         JMenu file = new JMenu("File");
         JMenuItem newf = new JMenuItem("New");
-        JMenu newSubMenu = new JMenu("New");
+        //JMenu newSubMenu = new JMenu("New");
 
         JMenuItem open = new JMenuItem("Open");
         JMenuItem save = new JMenuItem("Save");
         JMenuItem exit = new JMenuItem("Exit");
 
-        JMenuItem text = new JMenuItem("TextFile");
+        /*JMenuItem text = new JMenuItem("TextFile");
         JMenuItem image = new JMenuItem("ImageFile");
-        JMenuItem music = new JMenuItem("MusicFile");
+        JMenuItem music = new JMenuItem("MusicFile");*/
 
         mb.add(file);
-        file.add(newSubMenu);
+        file.add(newf);
         file.add(open);
         file.add(save);
         file.add(exit);
